@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F0699F82001EBE5000E3573 /* TJSlideLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0699F62001EBE5000E3573 /* TJSlideLayout.m */; };
+		9F0699FC2001EE18000E3573 /* TJSlideLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0699FA2001EE18000E3573 /* TJSlideLayout.m */; };
 		9F3D29821FFF7BB100B487A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D29811FFF7BB100B487A3 /* AppDelegate.m */; };
 		9F3D298A1FFF7BB100B487A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D29891FFF7BB100B487A3 /* Assets.xcassets */; };
 		9F3D298D1FFF7BB100B487A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3D298B1FFF7BB100B487A3 /* LaunchScreen.storyboard */; };
@@ -18,8 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9F0699F62001EBE5000E3573 /* TJSlideLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJSlideLayout.m; sourceTree = "<group>"; };
-		9F0699F72001EBE5000E3573 /* TJSlideLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJSlideLayout.h; sourceTree = "<group>"; };
+		9F0699FA2001EE18000E3573 /* TJSlideLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJSlideLayout.m; sourceTree = "<group>"; };
+		9F0699FB2001EE18000E3573 /* TJSlideLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJSlideLayout.h; sourceTree = "<group>"; };
 		9F3D297D1FFF7BB100B487A3 /* TJSlideCardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJSlideCardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3D29801FFF7BB100B487A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F3D29811FFF7BB100B487A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,19 +46,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F0699F52001EBE5000E3573 /* TJSlideLayout */ = {
+		9F0699F92001EE18000E3573 /* TJSlideLayout */ = {
 			isa = PBXGroup;
 			children = (
-				9F0699F72001EBE5000E3573 /* TJSlideLayout.h */,
-				9F0699F62001EBE5000E3573 /* TJSlideLayout.m */,
+				9F0699FA2001EE18000E3573 /* TJSlideLayout.m */,
+				9F0699FB2001EE18000E3573 /* TJSlideLayout.h */,
 			);
-			path = TJSlideLayout;
+			name = TJSlideLayout;
+			path = ../TJSlideLayout;
 			sourceTree = "<group>";
 		};
 		9F3D29741FFF7BB100B487A3 = {
 			isa = PBXGroup;
 			children = (
-				9F0699F52001EBE5000E3573 /* TJSlideLayout */,
+				9F0699F92001EE18000E3573 /* TJSlideLayout */,
 				9F3D297F1FFF7BB100B487A3 /* TJSlideCardDemo */,
 				9F3D297E1FFF7BB100B487A3 /* Products */,
 			);
@@ -162,7 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F3D29901FFF7BB100B487A3 /* main.m in Sources */,
-				9F0699F82001EBE5000E3573 /* TJSlideLayout.m in Sources */,
+				9F0699FC2001EE18000E3573 /* TJSlideLayout.m in Sources */,
 				9F3D29821FFF7BB100B487A3 /* AppDelegate.m in Sources */,
 				9F3D29A21FFF7F8500B487A3 /* SlideCollectionViewCell.m in Sources */,
 				9F3D299B1FFF7E7400B487A3 /* SlideCollectionViewController.m in Sources */,
